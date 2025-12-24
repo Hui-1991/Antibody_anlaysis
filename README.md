@@ -16,12 +16,16 @@ It calculates various physicochemical properties and stores them into a CSV file
 
 ## How to run it
 First, make sure you've got the necessary bits installed:
-`pip install biopython pandas numpy`
+```bash
+pip install biopython pandas numpy
+```
 
 Then, run the script from your terminal like so:
 ```bash
-python your_script_name.py --fastaFile input.fasta --csvFile results.csv --pH_value 7.4 ```
+python your_script_name.py --fastaFile input.fasta --csvFile results.csv --pH_value 7.4
+```
 (Note: --pH_value is optional and defaults to 7.4 if not specified)
+
 
 ## Example FASTA file 
 These are sample data, which includes amino acid sequence of therapeutics used for breast cancer. 
